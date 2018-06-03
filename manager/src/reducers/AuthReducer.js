@@ -6,7 +6,7 @@ import {
   LOGIN_USER
 } from '../actions/types';
 
-const INITITAL_STATE = {
+const INITIAL_STATE = {
   email: '',
   password: '',
   user: null,
@@ -14,7 +14,7 @@ const INITITAL_STATE = {
   loading: false
 };
 
-export default (state = INITITAL_STATE, action) => {
+export default (state = INITIAL_STATE, action) => {
   console.log(action);
 
   switch (action.type) {
