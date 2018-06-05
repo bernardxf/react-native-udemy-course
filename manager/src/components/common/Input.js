@@ -20,7 +20,7 @@ const Input = ({ label, value, onChangeText, placeholder, secureTextEntry }) => 
 };
 
 const styles = {
-  inputStyle:{
+  inputStyle: {
     color: '#000',
     paddingRight: 5,
     paddingLeft: 5,
@@ -28,17 +28,17 @@ const styles = {
     lineHeight: 23,
     flex: 2
   },
-  labelStyle:{
+  labelStyle: {
     fontSize: 18,
     paddingLeft: 20,
     flex: 1
   },
-  containertStyle:{
+  containertStyle: {
     height: 40,
     flex: 1,
     flexDirection: 'row',
     alignItems: 'center'
-  },
-}
+  }
+};
 
 export { Input };

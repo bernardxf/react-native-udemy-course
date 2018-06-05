@@ -12,7 +12,7 @@ const Button = ({ onPress, children }) => {
 };
 
 const styles = {
-  textStyle:{
+  textStyle: {
     alignSelf: 'center',
     color: '#007aff',
     fontSize: 16,
@@ -30,6 +30,6 @@ const styles = {
     marginLeft: 5,
     marginRight: 5
   }
-}
+};
 
 export { Button };

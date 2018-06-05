@@ -8,7 +8,7 @@ const Header = (props) => {
     <View style={ viewStyle }>
       <Text style={ textStyle }>{ props.headerText }</Text>;
     </View>
-  )
+  );
 };
 
 const styles = {

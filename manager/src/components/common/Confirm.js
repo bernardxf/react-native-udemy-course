@@ -4,7 +4,7 @@ import { CardSection } from './CardSection';
 import { Button } from './Button';
 
 const Confirm = ({ children, visible, onAccept, onDecline }) => {
-  const = { containerStyle, textStyle, CardSectionStyle } = styles;
+  const { containerStyle, textStyle, cardSectionStyle } = styles;
 
   return (
     <Modal
@@ -14,7 +14,7 @@ const Confirm = ({ children, visible, onAccept, onDecline }) => {
       visible={ visible }
     >
       <View style={ containerStyle }>
-        <CardSection style={ CardSectionStyle }>
+        <CardSection style={ cardSectionStyle }>
           <Text style={ textStyle }>
             { children }
           </Text>
@@ -30,7 +30,7 @@ const Confirm = ({ children, visible, onAccept, onDecline }) => {
 };
 
 const styles = {
-  CardSectionStyle: {
+  cardSectionStyle: {
     justifyContent: 'center'
   },
   textStyle: {
